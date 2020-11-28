@@ -1,0 +1,19 @@
+{
+  "name": "sample-serverless-bundle",
+  "version": "1.0.0",
+  "description": "Sample of how to bundle an existing lambda zip as part of serverless deploy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash.camelcase": "^4.3.0"
+  },
+  "devDependencies": {
+    "serverless-bundle": "^4.0.1",
+    "serverless-prune-plugin": "^1.4.3",
+    "serverless-stack-termination-protection": "^1.0.4"
+  }
+}
